@@ -1,0 +1,280 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<title>Mahmoud Ashraf Abo Elnaga Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		/* Sections slide style */
+		.slide {
+			display: none;
+			animation: fade 0.5s ease-in-out;
+		}
+
+		.slide.active {
+			display: block;
+		}
+
+		@keyframes fade {
+			from {
+				opacity: 0;
+				transform: translateX(30px);
+			}
+
+			to {
+				opacity: 1;
+				transform: translateX(0);
+			}
+		}
+
+		/* Circular profile photo styling */
+		#intro img {
+			width: 200px;
+			height: 200px;
+			border-radius: 50%;
+			object-fit: cover;
+			border: 4px solid #fff;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			margin: 20px auto;
+			display: block;
+		}
+
+		/* Adjust intro section layout */
+		#intro {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+		}
+
+		/* Mobile navigation improvements */
+		#nav {
+			touch-action: manipulation;
+		}
+
+		#nav .links a {
+			padding: 0.8rem;
+		}
+
+		@media (max-width: 768px) {
+			#nav .links a {
+				font-size: 16px;
+			}
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper" class="fade-in">
+
+		<!-- Intro -->
+		<div id="intro">
+			<img src="images/myphoto.png" alt="Mahmoud Ashraf Photo" />
+			<h1>Mahmoud Ashraf Abo Elnaga</h1>
+			<p>
+				Data scientist skilled at Python, SQL, Machine Learning, and Power BI
+				<a href="https://www.linkedin.com/in/mahmoud-ashraf-766614305/">@My Linkedin</a>
+			</p>
+			<ul class="actions">
+				<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+			</ul>
+		</div>
+
+		<!-- Header -->
+		<header id="header">
+			<a href="index.html" class="logo">Mahmoud Ashraf</a>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul class="links">
+				<li><a href="#about" data-slide="about">About Me</a></li>
+				<li><a href="#projects" data-slide="projects">Projects</a></li>
+			</ul>
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/mahmoud-ashraf-766614305/"
+						class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+				<li><a href="https://github.com/Mahmoud-Abo-Elnaga484" class="icon brands alt fa-github"><span
+							class="label">GitHub</span></a></li>
+				<li><a href="https://www.facebook.com/mahmoud.aboelnaga.12/?locale=ar_AR"
+						class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- About Me Slide -->
+			<section id="about" class="slide">
+				<header class="major">
+					<h1>About Me</h1>
+				</header>
+				<p>
+					Aspiring Data scientist with hands-on experience in Python, SQL, and data visualization. Skilled in
+					analyzing
+					datasets and creating insights using tools like Pandas and Matplotlib.DataCamp , NTI , DEPI trained,
+					with a strong
+					focus on Machine-learning and continuous learning.
+				</p>
+
+				<h2>Education</h2>
+				<p>Bachelor of Engineering – 2022 :2027 Faculty of Engineering, Mansoura University, Egypt</p>
+
+				<h2>Work Experience</h2>
+				<h3>Data Analysis Member at Dynamix team Mansoura university</h3>
+				<p>Data Processing & Visualization: Cleaned, analyzed, and visualized datasets
+					using Python (Pandas, Matplotlib/Seaborn) and SQL to extract actionable insights
+					for team projects.
+					•
+					Collaborative Problem-Solving: Worked with cross-functional teams to identify
+					data-driven solutions, improving decision-making for events or research
+					initiatives.</p>
+
+				<h3> Artificial Intelligence Trainee at National Telecommunication Institute (NTI)</h3>
+				<p> Participated in a government-sponsored AI training program focused on machine
+					learning, deep learning, and data science applications. Gained hands-on experience
+					with Python, TensorFlow, and computer vision projects. Collaborated with peers on
+					real-world datasets, developed AI models, and strengthened skills in algorithm
+					design, model evaluation, and problem-solving</p>
+
+				<h3> Data scientist Intern at (DEPI)</h3>
+				<p> Gained comprehensive training in data science...</p>
+
+				<h2>Skills</h2>
+				<ul>
+					<li>SQL (HackerRank certificates)</li>
+					<li>Excel (Power Query, Pivot Tables, Charts)</li>
+					<li>Python (Pandas, Matplotlib, Seaborn)</li>
+					<li>Machine-learning (Supervised , Unsupervised , Semisupervised)</li>
+					<li>Power BI with DAX</li>
+				</ul>
+			</section>
+
+			<!-- Projects Slide -->
+			<section id="projects" class="slide">
+				<article class="post featured">
+					<header class="major">
+						<h2><a href="https://github.com/Mahmoud-Abo-Elnaga484/Laptop_analysis">Laptop Analysis
+								Project</a></h2>
+						<p>Analyzed 2760 laptop specs (price, RAM, brand) to identify market trends.</p>
+					</header>
+					<a href="https://github.com/Mahmoud-Abo-Elnaga484/Laptop_analysis" class="image main"><img
+							src="images/laptop Analysis.png" alt="" /></a>
+					<ul class="actions special">
+						<li><a href="https://github.com/Mahmoud-Abo-Elnaga484/Laptop_analysis" class="button large">View
+								Project</a></li>
+					</ul>
+				</article>
+
+				<section class="posts">
+					<article>
+						<header>
+							<h2><a href="https://github.com/Mahmoud-Abo-Elnaga484/California-Houses-Price-analysis">California
+									Houses Price Analysis</a></h2>
+						</header>
+						<a href="https://github.com/Mahmoud-Abo-Elnaga484/California-Houses-Price-analysis"
+							class="image fit"><img src="images/housing analysis.png" alt="" /></a>
+						<p>Predicted housing prices in California using regression models (XGBoost, Random Forest,
+							etc.).</p>
+						<ul class="actions special">
+							<li><a href="https://github.com/Mahmoud-Abo-Elnaga484/California-Houses-Price-analysis"
+									class="button">View Project</a></li>
+						</ul>
+					</article>
+				</section>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<section class="split contact">
+				<section class="alt">
+					<h3>Address</h3>
+					<p>Damietta, Portsaid Rd</p>
+				</section>
+				<section>
+					<h3>Phone</h3>
+					<p><a href="#">(+20) 1024790533</a></p>
+				</section>
+				<section>
+					<h3>Email</h3>
+					<p><a href="#">mahmoudaboelnaga46@gmail.com</a></p>
+				</section>
+				<section>
+					<h3>Social</h3>
+					<ul class="icons alt">
+						<li><a href="https://www.linkedin.com/in/mahmoud-ashraf-766614305/"
+								class="icon brands alt fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/Mahmoud-Abo-Elnaga484" class="icon brands alt fa-github"><span
+									class="label">GitHub</span></a></li>
+						<li><a href="https://www.facebook.com/mahmoud.aboelnaga.12/?locale=ar_AR"
+								class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+					</ul>
+				</section>
+			</section>
+		</footer>
+
+		<!-- Copyright -->
+		<div id="copyright">
+			<ul>
+				<li>&copy; Mahmoud Ashraf</li>
+				<li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+			</ul>
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+	<script>
+		function showSlide(id) {
+			document.querySelectorAll('.slide').forEach(s => s.classList.remove('active'));
+			const el = document.getElementById(id);
+			if (el) el.classList.add('active');
+		}
+
+		// Show correct slide on page load depending on hash
+		window.addEventListener("load", () => {
+			const hash = window.location.hash.replace("#", "") || "about";
+			showSlide(hash);
+		});
+
+		// Handle nav clicks (fix for mobile)
+		document.querySelectorAll('#nav .links a').forEach(link => {
+			link.addEventListener("click", function (e) {
+				e.preventDefault();
+				e.stopPropagation(); // prevent mobile scroll to hash
+				const id = this.getAttribute("data-slide");
+				if (id) {
+					history.replaceState(null, "", "#" + id);
+					showSlide(id);
+				}
+			});
+		});
+
+		// Handle browser back/forward buttons
+		window.addEventListener("popstate", function (e) {
+			const hash = window.location.hash.replace("#", "") || "about";
+			showSlide(hash);
+		});
+	</script>
+
+</body>
+
+</html>
